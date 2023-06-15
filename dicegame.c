@@ -17,5 +17,10 @@ int main(){
     printf("Die 2: %d\n",b);
     printf("Total value: %d\n",num);
 
+    if(num>=7){
+      printf("You won\n");
+    }
+    else printf("You lost\n");
+
     return 0;
 }
